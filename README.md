@@ -2,6 +2,20 @@
 
 - create vite project
 - configured tailwind css
+- Header
+- Routing of App
+- Login Form
+- Sign Up Form
+- Form Validation
+- Use Ref Hook
+- Firebase Setup
+- Deploying app to production
+- create SignUp User Account in Firebase
+- Implement Sign In user api
+- create Redux Store with userSlice
+- Implemented sign out
+- Update profile api
+- fetch from TMDB movies
 
 # Features
 
