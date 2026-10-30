@@ -1,11 +1,7 @@
-import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-  return (
-    <div className="text-3xl font-bold text-green-400">
-      This is the starting point of netflix-gpt.
-    </div>
-  );
+  return <Body />;
 }
 
 export default App;
