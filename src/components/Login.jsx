@@ -3,6 +3,7 @@ import Header from "./Header";
 import { checkValidData } from "../utils/validate";
 import { auth } from "../utils/firebase";
 import { USER_AVATAR } from "../utils/constants";
+import { BG_LOGO } from "../utils/constants";
 
 import {
   createUserWithEmailAndPassword,
@@ -88,10 +89,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img
-          alt="bg-logo"
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/29195c81-5ebb-453e-82e9-d3a50737dfb3/web/IN-en-20261026-TRIFECTA-perspective_ef561213-292c-4768-aef0-c1db800e385e_large.jpg"
-        ></img>
+        <img alt="bg-logo" src={BG_LOGO}></img>
       </div>
       <form
         onSubmit={(e) => {
