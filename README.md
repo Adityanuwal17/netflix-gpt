@@ -15,7 +15,19 @@
 - create Redux Store with userSlice
 - Implemented sign out
 - Update profile api
-- fetch from TMDB movies
+- BugFix: Sign up user displayName update
+- BugFix: if the is not logged in redirect /browse to login page and vice versa
+- Unsubscribes to the onAuthStateChange callback once component unmounts
+- Add hardcoded values to the contants file
+- Register for TMDB, edit profile, create your app, and get the api key
+- fetch from TMDB now playing movies list API
+- Custom hook for now Playing Movies
+- Create MovieSlice
+- update Stpore with movies Data
+- Fetch Data for trailer Video
+- Update Store with Trailer Video Data
+- Embedded the Youtube Vide and make it autoplay and mute
+- Tailwind Classes to the make the Main container look cool
 
 # Features
 
@@ -38,3 +50,21 @@
 - Netflix GPT
   - Search bar
   - Movie Suggestions
+
+# Plan Browse Page
+
+- Main Container
+
+  - Video background
+  - video title
+
+- Secondary Container
+
+  - Movies List \* n
+    - Each list has movie cards \* n
+
+- Video Background
+  - fetch trailer with API call from movie Id
+  - from the json, get the key from the trailer
+  - paste on youtube, and click on share and get the embed iframe code
+  - take care of camel casing in jsx for attributes so react can read them
