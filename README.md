@@ -28,6 +28,7 @@
 - Update Store with Trailer Video Data
 - Embedded the Youtube Vide and make it autoplay and mute
 - Tailwind Classes to the make the Main container look cool
+- Build Secondary Component
 
 # Features
 
@@ -64,7 +65,17 @@
     - Each list has movie cards \* n
 
 - Video Background
+
   - fetch trailer with API call from movie Id
   - from the json, get the key from the trailer
   - paste on youtube, and click on share and get the embed iframe code
   - take care of camel casing in jsx for attributes so react can read them
+
+- Secondary Container
+
+  - Movie List - Pupular
+    - Movie Cards \* n
+  - Movie List - trending
+  - Movie List - Now Playing
+  - Movie List - Horror
+    etc..
